@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "aqua-trade1",
+    "name": "Aqua Trade",
     "slug": "aqua-trade1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.aquatrade1"
     },
     "android": {
+      "package": "com.yourname.aquatrade1",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +45,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7676ea4d-da15-4b77-862a-0f132b7bb1d4"
+      }
     }
   }
 }
